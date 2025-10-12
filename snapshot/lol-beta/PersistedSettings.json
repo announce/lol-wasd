@@ -435,11 +435,11 @@
                         },
                         {
                             "name": "NativeOffsetX",
-                            "value": "0.0000"
+                            "value": "0.0016"
                         },
                         {
                             "name": "NativeOffsetY",
-                            "value": "0.0000"
+                            "value": "0.0046"
                         }
                     ]
                 },
@@ -1378,8 +1378,16 @@
                     "name": "WASD",
                     "settings": [
                         {
+                            "name": "AutoAttack",
+                            "value": "[Button 1]"
+                        },
+                        {
                             "name": "CameraSnap",
                             "value": "[Button 2]"
+                        },
+                        {
+                            "name": "CastAction",
+                            "value": "[Button 1]"
                         },
                         {
                             "name": "CastAvatarSpell1",
@@ -1470,6 +1478,10 @@
                             "value": "[Button 4]"
                         },
                         {
+                            "name": "InteractWithObject",
+                            "value": "[Button 1]"
+                        },
+                        {
                             "name": "LevelSpell1",
                             "value": "[Ctrl][q]"
                         },
@@ -1503,7 +1515,7 @@
                         },
                         {
                             "name": "OpenShop",
-                            "value": "[Ctrl][b]"
+                            "value": "[Ctrl][Button 4]"
                         },
                         {
                             "name": "PetMoveClick",
@@ -1547,23 +1559,27 @@
                         },
                         {
                             "name": "SelectAlly1",
-                            "value": "[Ctrl][1]"
-                        },
-                        {
-                            "name": "SelectAlly2",
                             "value": "[Ctrl][2]"
                         },
                         {
-                            "name": "SelectAlly3",
+                            "name": "SelectAlly2",
                             "value": "[Ctrl][3]"
                         },
                         {
-                            "name": "SelectAlly4",
+                            "name": "SelectAlly3",
                             "value": "[Ctrl][4]"
+                        },
+                        {
+                            "name": "SelectAlly4",
+                            "value": "[Ctrl][5]"
                         },
                         {
                             "name": "SelectAlly5",
                             "value": "[Ctrl][Alt][r]"
+                        },
+                        {
+                            "name": "SelectObject",
+                            "value": "[Button 1]"
                         },
                         {
                             "name": "SelectSelf",
@@ -1663,7 +1679,7 @@
                         },
                         {
                             "name": "SysMenu",
-                            "value": "[Ctrl][s]"
+                            "value": "[Esc]"
                         },
                         {
                             "name": "TogglePlayerStats",
@@ -1671,27 +1687,27 @@
                         },
                         {
                             "name": "UseItem1",
-                            "value": "[1]"
-                        },
-                        {
-                            "name": "UseItem2",
                             "value": "[2]"
                         },
                         {
-                            "name": "UseItem3",
+                            "name": "UseItem2",
                             "value": "[3]"
                         },
                         {
-                            "name": "UseItem4",
+                            "name": "UseItem3",
                             "value": "[5]"
                         },
                         {
+                            "name": "UseItem4",
+                            "value": "[Alt][2]"
+                        },
+                        {
                             "name": "UseItem5",
-                            "value": "[Alt][1]"
+                            "value": "[Alt][3]"
                         },
                         {
                             "name": "UseItem6",
-                            "value": "[Alt][2]"
+                            "value": "[Alt][4]"
                         },
                         {
                             "name": "UseVisionItem",

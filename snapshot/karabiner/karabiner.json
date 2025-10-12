@@ -968,6 +968,10 @@
                         {
                             "from": { "pointing_button": "button4" },
                             "to": [{ "key_code": "tab" }]
+                        },
+                        {
+                            "from": { "key_code": "1" },
+                            "to": [{ "key_code": "escape" }]
                         }
                     ]
                 },
