@@ -43,7 +43,7 @@ Note that, as of [Patch 25.20](https://www.leagueoflegends.com/en-us/news/game-u
 Install the handy commands via [Homebrew](https://brew.sh/):
 
 ```shell
-brew install rsync watch
+brew install rsync timeout watch
 ```
 
 #### How to take a snapshot of the config files
@@ -51,10 +51,10 @@ brew install rsync watch
 Run the command below:
 
 ```shell
-watch -ebn 10 bash snapshot-settings.sh
+timeout 28800 watch -ebn 10 bash snapshot-settings.sh
 ```
 
-It takes a snapshot of your local config files every 10 seconds.
+It takes a snapshot of your local config files every 10 seconds for 8 hours.
 
 #### Resource
 
