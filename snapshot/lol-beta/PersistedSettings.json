@@ -1526,6 +1526,10 @@
                             "value": "[Ctrl][Button 5]"
                         },
                         {
+                            "name": "PlayerPingOMW",
+                            "value": "[<Unbound>]"
+                        },
+                        {
                             "name": "ScrollDown",
                             "value": "[<Unbound>]"
                         },
@@ -1543,19 +1547,19 @@
                         },
                         {
                             "name": "SelectAlly1",
-                            "value": "[Alt][1]"
+                            "value": "[Ctrl][1]"
                         },
                         {
                             "name": "SelectAlly2",
-                            "value": "[Alt][2]"
+                            "value": "[Ctrl][2]"
                         },
                         {
                             "name": "SelectAlly3",
-                            "value": "[Alt][3]"
+                            "value": "[Ctrl][3]"
                         },
                         {
                             "name": "SelectAlly4",
-                            "value": "[Alt][4]"
+                            "value": "[Ctrl][4]"
                         },
                         {
                             "name": "SelectAlly5",
@@ -1680,6 +1684,14 @@
                         {
                             "name": "UseItem4",
                             "value": "[5]"
+                        },
+                        {
+                            "name": "UseItem5",
+                            "value": "[Alt][1]"
+                        },
+                        {
+                            "name": "UseItem6",
+                            "value": "[Alt][2]"
                         },
                         {
                             "name": "UseVisionItem",
