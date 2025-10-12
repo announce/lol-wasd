@@ -1,7 +1,8 @@
 
 ## Overview
 
-This project hosts a set of config settings to play **League of Legends** with [WASD](https://www.leagueoflegends.com/en-gb/news/dev/dev-wasd-controls-are-on-the-way/) for those who want to use a D-pad on macOS.
+Hello, oddballs!
+This project provides a set of config settings as a reference for those who want to play **League of Legends** on macOS using a D-pad with [the WASD keybinding](https://www.leagueoflegends.com/en-gb/news/dev/dev-wasd-controls-are-on-the-way/).
 
 Supported Device:
 
@@ -14,14 +15,39 @@ Supported Device:
 
 ![Karabiner\-Elements Settings](./snapshot/karabiner.png)
 
-2. Optionally, sign up for [PBE](https://www.leagueoflegends.com/en-us/pbe/).
+2. Optionally, sign up for [PBE](https://www.leagueoflegends.com/en-us/pbe/). At the time of wirting, the WASD Keybinding is only available in PBE.
 
 
 ## How to edit the settings
 
 Find an attribute named `WASD` under `Input.ini` in **PersistedSettings.json**. Refer to [the official FAQ article](https://support-leagueoflegends.riotgames.com/hc/en-us/articles/115005433708-Hotkeys-Keybindings-FAQ) for more details.
 
+Pitfall:
 
-## How to unlock all the champions
+- With the WASD keybinding enabled, we no longer can specify `[Shift]` as a modifer key by design on the LoL client; however, the manual overwrite is still effective for now via the JSON file.
 
-For ease of verification, while it's completely optional, subscribe to [PC Game Pass](https://account.riotgames.com/xbox-game-pass-link/) and link your Riot account to explore all the champions' interactions, including the obsqure [Champion Specific Interactions](https://wiki.leagueoflegends.com/en-us/Category:Champions_with_specific_interaction_hotkeys).
+
+## Optional: How to unlock all the champions
+
+For ease of verification, while it's completely optional, subscribe to [PC Game Pass](https://account.riotgames.com/xbox-game-pass-link/) and link your Riot account. It allows you to explore all the champions' interactions, including the obsqure [Champion Specific Interactions](https://wiki.leagueoflegends.com/en-us/Category:Champions_with_specific_interaction_hotkeys).
+
+
+## For maintainers
+
+#### Setup
+
+Install the handy commands via [Homebrew](https://brew.sh/):
+
+```shell
+brew install rsync watch
+```
+
+#### How to take a snapshot of the config files
+
+Run the command below:
+
+```shell
+watch -ebn 10 bash snapshot-settings.sh
+```
+
+It takes a snapshot of your local config files every 10 seconds.
