@@ -117,11 +117,11 @@
                     "settings": [
                         {
                             "name": "AutoAcquireTarget",
-                            "value": "0"
+                            "value": "1"
                         },
                         {
                             "name": "CfgVersion",
-                            "value": "15.21.718.2866"
+                            "value": "15.21.719.3255"
                         },
                         {
                             "name": "CursorOverride",
@@ -435,11 +435,11 @@
                         },
                         {
                             "name": "NativeOffsetX",
-                            "value": "0.0016"
+                            "value": "0.0036"
                         },
                         {
                             "name": "NativeOffsetY",
-                            "value": "0.0046"
+                            "value": "0.0028"
                         }
                     ]
                 },
@@ -1523,7 +1523,7 @@
                         },
                         {
                             "name": "PlayerPing",
-                            "value": "[Back]"
+                            "value": "[<Unbound>]"
                         },
                         {
                             "name": "PlayerPingCursor",
@@ -1540,6 +1540,10 @@
                         {
                             "name": "PlayerPingOMW",
                             "value": "[<Unbound>]"
+                        },
+                        {
+                            "name": "QuickOpenEmoteWheel",
+                            "value": "[Ctrl][h]"
                         },
                         {
                             "name": "ScrollDown",
@@ -1651,7 +1655,7 @@
                         },
                         {
                             "name": "SmartCastWithIndicatorSpell2",
-                            "value": "[Shift][2]"
+                            "value": "[Shift][w]"
                         },
                         {
                             "name": "SmartCastWithIndicatorSpell3",
@@ -1687,27 +1691,27 @@
                         },
                         {
                             "name": "UseItem1",
-                            "value": "[2]"
+                            "value": "[1]"
                         },
                         {
                             "name": "UseItem2",
-                            "value": "[3]"
+                            "value": "[2]"
                         },
                         {
                             "name": "UseItem3",
-                            "value": "[5]"
+                            "value": "[3]"
                         },
                         {
                             "name": "UseItem4",
-                            "value": "[Alt][2]"
+                            "value": "[Alt][1]"
                         },
                         {
                             "name": "UseItem5",
-                            "value": "[Alt][3]"
+                            "value": "[Alt][2]"
                         },
                         {
                             "name": "UseItem6",
-                            "value": "[Alt][4]"
+                            "value": "[Alt][3]"
                         },
                         {
                             "name": "UseVisionItem",

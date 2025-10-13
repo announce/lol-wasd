@@ -4,7 +4,10 @@
 Hello, oddballs!
 This project provides a set of config settings as a reference for those who want to play **League of Legends** on macOS using a D-pad with [the WASD keybinding](https://www.leagueoflegends.com/en-gb/news/dev/dev-wasd-controls-are-on-the-way/).
 
-Supported Device:
+![WASD](./snapshot/wasd.png)
+
+
+#### Supported Device
 
 - [Razer Tartarus V2](https://www.razer.com/gaming-keypads/razer-tartarus-v2)
 
@@ -12,13 +15,10 @@ Supported Device:
 ## Prerequisite
 
 1. Install [Karabiner\-Elements](https://karabiner-elements.pqrs.org/) to remap the keybindings, since the official **Razer Synapse 2** no longer supports the latest macOS versions.
-
-![Karabiner\-Elements Settings](./snapshot/karabiner.png)
-
-2. Optionally, sign up for [**PBE**](https://www.leagueoflegends.com/en-us/pbe/). At the time of writing, the WASD Keybinding is only available in PBE.
+1. Optionally, sign up for [**PBE**](https://www.leagueoflegends.com/en-us/pbe/). At the time of writing, the WASD Keybinding is only available in PBE.
 
 
-## How to edit the settings
+## How to edit the in-game settings
 
 Refer to [the official FAQ article](https://support-leagueoflegends.riotgames.com/hc/en-us/articles/115005433708-Hotkeys-Keybindings-FAQ) to find your local config directory. 
 
@@ -27,6 +27,15 @@ Then, locate an attribute named `WASD` under `Input.ini` in **PersistedSettings.
 Pitfall:
 
 - With the WASD keybinding enabled, we no longer can specify `[Shift]` as a modifer key by design on the LoL client; however, the manual overwrite is still effective for now via the JSON file.
+
+
+## How to import the Karabinar settings
+
+1. Select **Maintainance** - **Misc** > **Export & Import** - **Open config folder**, then specify the `snapshot/karabiner` directory.
+1. Select **Configurations** - **Profiles**, then select **"Gaming profile - LoL"**.
+1. Select **Modifications** - **Simple Modifications** > **"Razer Tartarus V2 (Razer)"**.
+
+![Karabiner\-Elements Settings](./snapshot/karabiner.png)
 
 
 ## Optional: How to unlock all the champions
