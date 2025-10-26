@@ -2,10 +2,14 @@
 ## Overview
 
 Hello, oddballs!
-This project provides a set of config settings as a reference for those who want to play **League of Legends** on macOS using a D-pad with [the WASD keybinding](https://www.leagueoflegends.com/en-gb/news/dev/dev-wasd-controls-are-on-the-way/).
+This project provides a set of config settings as a reference for those who want to play **League of Legends** on Windows or macOS using a D-pad with [the WASD keybinding](https://www.leagueoflegends.com/en-gb/news/dev/dev-wasd-controls-are-on-the-way/).
 
 ![WASD](./snapshot/wasd.png)
 
+#### Supported Platforms
+
+- macOS
+- Ubuntu 22 (WSL2)
 
 #### Supported Device
 
@@ -14,8 +18,13 @@ This project provides a set of config settings as a reference for those who want
 
 ## Prerequisite
 
-1. Install [Karabiner\-Elements](https://karabiner-elements.pqrs.org/) to remap the keybindings, since the official **Razer Synapse 2** no longer supports the latest macOS versions.
+Platform-agnostic:
+
 1. Optionally, sign up for [**PBE**](https://www.leagueoflegends.com/en-us/pbe/). At the time of writing, the WASD Keybinding is only available in PBE.
+
+macOS:
+
+1. Install [Karabiner\-Elements](https://karabiner-elements.pqrs.org/) to remap the keybindings, since the official **Razer Synapse 2** no longer supports the latest macOS versions.
 
 
 ## How to edit the in-game settings
@@ -30,6 +39,8 @@ Pitfall:
 
 
 ## How to import the Karabinar settings
+
+This section only applies to macOS:
 
 1. Select **Maintainance** - **Misc** > **Export & Import** - **Open config folder**, then specify the `snapshot/karabiner` directory.
 1. Select **Configurations** - **Profiles**, then select **"Gaming profile - LoL"**.
@@ -49,11 +60,13 @@ Note that, as of [Patch 25.20](https://www.leagueoflegends.com/en-us/news/game-u
 
 #### Setup
 
-Install the handy commands via [Homebrew](https://brew.sh/):
+On macOS, install the required commands via [Homebrew](https://brew.sh/):
 
 ```shell
 brew install rsync timeout watch
 ```
+
+Ubuntu 22 should already have them installed by default.
 
 #### How to take a snapshot of the config files
 

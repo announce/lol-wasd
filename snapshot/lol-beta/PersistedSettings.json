@@ -76,7 +76,7 @@
                         },
                         {
                             "name": "Experience_Enabled",
-                            "value": "0"
+                            "value": "1"
                         },
                         {
                             "name": "Gold_Enabled",
@@ -117,11 +117,11 @@
                     "settings": [
                         {
                             "name": "AutoAcquireTarget",
-                            "value": "1"
+                            "value": "0"
                         },
                         {
                             "name": "CfgVersion",
-                            "value": "15.21.719.3255"
+                            "value": "15.22.722.805"
                         },
                         {
                             "name": "CursorOverride",
@@ -145,11 +145,11 @@
                         },
                         {
                             "name": "EnableTargetedAttackMove",
-                            "value": "0"
+                            "value": "1"
                         },
                         {
                             "name": "GameMouseSpeed",
-                            "value": "10"
+                            "value": "20"
                         },
                         {
                             "name": "OSXMouseAcceleration",
@@ -306,7 +306,7 @@
                         },
                         {
                             "name": "NumericCooldownFormat",
-                            "value": "1"
+                            "value": "2"
                         },
                         {
                             "name": "ObjectiveVoteScale",
@@ -435,11 +435,11 @@
                         },
                         {
                             "name": "NativeOffsetX",
-                            "value": "0.0036"
+                            "value": "-0.0057"
                         },
                         {
                             "name": "NativeOffsetY",
-                            "value": "0.0028"
+                            "value": "0.0194"
                         }
                     ]
                 },
@@ -1281,7 +1281,7 @@
                         },
                         {
                             "name": "UseItem1smart",
-                            "value": "1"
+                            "value": "0"
                         },
                         {
                             "name": "UseItem2smart",
@@ -1301,7 +1301,7 @@
                         },
                         {
                             "name": "UseItem6smart",
-                            "value": "1"
+                            "value": "0"
                         },
                         {
                             "name": "UseVisionItemsmart",
@@ -1382,8 +1382,12 @@
                             "value": "[Button 1]"
                         },
                         {
-                            "name": "CameraSnap",
+                            "name": "CameraLockToggle",
                             "value": "[Button 2]"
+                        },
+                        {
+                            "name": "CameraSnap",
+                            "value": "[<Unbound>]"
                         },
                         {
                             "name": "CastAction",
@@ -1475,7 +1479,7 @@
                         },
                         {
                             "name": "HoldShowScoreBoard",
-                            "value": "[Button 4]"
+                            "value": "[Button 5]"
                         },
                         {
                             "name": "InteractWithObject",
@@ -1515,7 +1519,7 @@
                         },
                         {
                             "name": "OpenShop",
-                            "value": "[Ctrl][Button 4]"
+                            "value": "[Ctrl][Button 5]"
                         },
                         {
                             "name": "PetMoveClick",
@@ -1526,8 +1530,12 @@
                             "value": "[<Unbound>]"
                         },
                         {
+                            "name": "PlayerPingAreaIsWarded",
+                            "value": "[h]"
+                        },
+                        {
                             "name": "PlayerPingCursor",
-                            "value": "[Button 5]"
+                            "value": "[a]"
                         },
                         {
                             "name": "PlayerPingCursorDanger",
@@ -1535,15 +1543,19 @@
                         },
                         {
                             "name": "PlayerPingDanger",
-                            "value": "[Ctrl][Button 5]"
+                            "value": "[Ctrl][Button 2]"
                         },
                         {
                             "name": "PlayerPingOMW",
-                            "value": "[<Unbound>]"
+                            "value": "[Ctrl][Button 1]"
                         },
                         {
                             "name": "QuickOpenEmoteWheel",
-                            "value": "[Ctrl][h]"
+                            "value": "[Ctrl][a]"
+                        },
+                        {
+                            "name": "ReciprocityMyBadTrigger",
+                            "value": "[Back]"
                         },
                         {
                             "name": "ScrollDown",
@@ -1563,19 +1575,19 @@
                         },
                         {
                             "name": "SelectAlly1",
-                            "value": "[Ctrl][2]"
+                            "value": "[<Unbound>]"
                         },
                         {
                             "name": "SelectAlly2",
-                            "value": "[Ctrl][3]"
+                            "value": "[c]"
                         },
                         {
                             "name": "SelectAlly3",
-                            "value": "[Ctrl][4]"
+                            "value": "[<Unbound>]"
                         },
                         {
                             "name": "SelectAlly4",
-                            "value": "[Ctrl][5]"
+                            "value": "[<Unbound>]"
                         },
                         {
                             "name": "SelectAlly5",
@@ -1686,12 +1698,16 @@
                             "value": "[Esc]"
                         },
                         {
+                            "name": "ToggleFPSAndLatency",
+                            "value": "[<Unbound>]"
+                        },
+                        {
                             "name": "TogglePlayerStats",
                             "value": "[<Unbound>]"
                         },
                         {
                             "name": "UseItem1",
-                            "value": "[1]"
+                            "value": "[Ctrl][Button 4]"
                         },
                         {
                             "name": "UseItem2",
@@ -1703,19 +1719,19 @@
                         },
                         {
                             "name": "UseItem4",
-                            "value": "[Alt][1]"
+                            "value": "[4]"
                         },
                         {
                             "name": "UseItem5",
-                            "value": "[Alt][2]"
+                            "value": "[Ctrl][2]"
                         },
                         {
                             "name": "UseItem6",
-                            "value": "[Alt][3]"
+                            "value": "[Ctrl][3]"
                         },
                         {
                             "name": "UseVisionItem",
-                            "value": "[4]"
+                            "value": "[Button 4]"
                         }
                     ]
                 }
