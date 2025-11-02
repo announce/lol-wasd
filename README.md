@@ -38,13 +38,22 @@ Pitfall:
 - With the WASD keybinding enabled, we no longer can specify `[Shift]` as a modifer key by design on the LoL client; however, the manual overwrite is still effective for now via the JSON file.
 
 
-## How to import the Karabinar settings
+## Windows: How to import the Synapse 3 settings
+
+This section only applies to Windows:
+
+1. Import the `snapshot/lol.synapse3` file.
+
+![Synapse 3 \- Customize](./snapshot/lol-synapse3.png)
+
+
+## macOS: How to import the Karabinar settings
 
 This section only applies to macOS:
 
-1. Select **Maintainance** - **Misc** > **Export & Import** - **Open config folder**, then specify the `snapshot/karabiner` directory.
-1. Select **Configurations** - **Profiles**, then select **"Gaming profile - LoL"**.
-1. Select **Modifications** - **Simple Modifications** > **"Razer Tartarus V2 (Razer)"**.
+1. Import the `snapshot/karabiner` directory.
+1. Select **"Gaming profile - LoL"**.
+1. Select **Simple Modifications** > **"Razer Tartarus V2 (Razer)"**.
 
 ![Karabiner\-Elements Settings](./snapshot/karabiner.png)
 
