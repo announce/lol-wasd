@@ -25,18 +25,56 @@ syncLinux () {
   rsync -a "${TARGET_LOL_STABLE_FILE}" ${OUTPUT_DIR}/snapshot/lol-stable/
 }
 
+outputSummary () {
+  export OUTPUT_DIR="$(dirname $0)"
+  TARGET_JSON_FILE="${OUTPUT_DIR}/snapshot/lol-beta/PersistedSettings.json"
 
-case "${OSTYPE}" in
-# macOS
-darwin*)
-    syncMac
-    ;;
-# Linux (WSL)
-linux*)
-    syncLinux
-    ;;
-*) # Default case (wildcard)
-    errorMessage "Unsupported platform: ${OSTYPE}"
-    exit 1
-    ;;
-esac
+  jq -r '["Name", "Value"], (
+    .files[]
+    | select(.name == "Input.ini")
+    | .sections[]
+    | select(.name == "WASD")
+    | .settings[]
+    | [.name, .value]
+  ) | @csv' "${TARGET_JSON_FILE}" \
+  > "${TARGET_JSON_FILE}.csv"
+
+  jq -r '["Name", "Value"], (
+    .files[]
+    | select(.name == "Input.ini")
+    | .sections[]
+    | select(.name == "WASD")
+    | .settings[]
+    | ["\(.name)", "`\(.value)`"]
+  ) | @csv' "${TARGET_JSON_FILE}" \
+  | pipx run csv2md \
+  > "${TARGET_JSON_FILE}.md"
+
+  wc -l "${TARGET_JSON_FILE}".*
+}
+
+takeSnapshots () {
+  case "${OSTYPE}" in
+    # macOS
+    darwin*)
+        syncMac
+        ;;
+    # Linux (WSL)
+    linux*)
+        syncLinux
+        ;;
+    *) # Default case (wildcard)
+        errorMessage "Unsupported platform: ${OSTYPE}"
+        exit 1
+        ;;
+  esac
+}
+
+if [[ $# = 0 ]]; then
+  # Execute the default command
+  takeSnapshots
+elif [[ "$(type -t "$1")" = "function" ]]; then
+  $1 "$(shift && echo "$@")"
+else
+  fatal "No such command: $*"
+fi
