@@ -121,7 +121,7 @@
                         },
                         {
                             "name": "CfgVersion",
-                            "value": "15.23.725.6119"
+                            "value": "15.23.726.3988"
                         },
                         {
                             "name": "CursorOverride",
@@ -1566,6 +1566,14 @@
                             "value": "[Ctrl][Button 1]"
                         },
                         {
+                            "name": "PlayerPingPush",
+                            "value": "[Shift][Ctrl][Button 1]"
+                        },
+                        {
+                            "name": "PlayerPingVisionNeeded",
+                            "value": "[Shift][Ctrl][Button 2]"
+                        },
+                        {
                             "name": "QuickOpenEmoteWheel",
                             "value": "[Ctrl][a]"
                         },
@@ -1719,11 +1727,11 @@
                         },
                         {
                             "name": "ToggleFPSAndLatency",
-                            "value": "[<Unbound>]"
+                            "value": "[Alt][Button 5]"
                         },
                         {
                             "name": "TogglePlayerStats",
-                            "value": "[Alt][Button 5]"
+                            "value": "[<Unbound>]"
                         },
                         {
                             "name": "UseItem1",
