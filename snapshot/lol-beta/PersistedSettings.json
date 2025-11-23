@@ -121,7 +121,7 @@
                         },
                         {
                             "name": "CfgVersion",
-                            "value": "15.23.726.3988"
+                            "value": "15.24.728.7302"
                         },
                         {
                             "name": "CursorOverride",
@@ -406,7 +406,7 @@
                         },
                         {
                             "name": "SmartCastOnKeyRelease",
-                            "value": "0"
+                            "value": "1"
                         },
                         {
                             "name": "SmartCastWithIndicator_CastWhenNewSpellSelected",
@@ -1305,7 +1305,7 @@
                         },
                         {
                             "name": "UseItem6smart",
-                            "value": "0"
+                            "value": "1"
                         },
                         {
                             "name": "UseVisionItemsmart",
@@ -1391,7 +1391,7 @@
                         },
                         {
                             "name": "CameraSnap",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "CastAction",
@@ -1427,7 +1427,7 @@
                         },
                         {
                             "name": "ChampMasteryDisplay",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "ChampionOnly",
@@ -1479,11 +1479,11 @@
                         },
                         {
                             "name": "EmoteToggle",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "FreeDynamicCameraToggle",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "HoldShowScoreBoard",
@@ -1535,7 +1535,7 @@
                         },
                         {
                             "name": "PlayerPing",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "PlayerPingAreaIsWarded",
@@ -1551,7 +1551,7 @@
                         },
                         {
                             "name": "PlayerPingCursorDanger",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "PlayerPingDanger",
@@ -1579,27 +1579,27 @@
                         },
                         {
                             "name": "ReciprocityMyBadTrigger",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "ReciprocityTrigger",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "ScrollDown",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "ScrollLeft",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "ScrollRight",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "ScrollUp",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "SelectAlly1",
@@ -1627,59 +1627,59 @@
                         },
                         {
                             "name": "SelectSelf",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "SelfCastAvatarSpell1",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "SelfCastAvatarSpell2",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "SelfCastItem1",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "SelfCastItem2",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "SelfCastItem3",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "SelfCastItem4",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "SelfCastItem5",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "SelfCastItem6",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "SelfCastSpell1",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "SelfCastSpell2",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "SelfCastSpell3",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "SelfCastSpell4",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "SelfCastVisionItem",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "ShowCharacterMenu",
@@ -1687,7 +1687,7 @@
                         },
                         {
                             "name": "ShowScoreBoard",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "SmartCastWithIndicatorSpell1",
@@ -1731,7 +1731,7 @@
                         },
                         {
                             "name": "TogglePlayerStats",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "UseItem1",
@@ -1755,7 +1755,7 @@
                         },
                         {
                             "name": "UseItem6",
-                            "value": "[<Unbound>]"
+                            "value": "[ ]"
                         },
                         {
                             "name": "UseVisionItem",

@@ -5,6 +5,14 @@ errorMessage () {
   echo "ERROR: $@" >&2
 }
 
+help () {
+  showUsage
+}
+
+showUsage () {
+  declare -F | awk '{print $3}'
+}
+
 syncMac () {
   export OUTPUT_DIR="$(dirname $0)"
   export TARGET_KARABINER_DIR="${HOME}/.config/karabiner/"
@@ -26,8 +34,8 @@ syncLinux () {
 }
 
 outputSummary () {
-  export OUTPUT_DIR="$(dirname $0)"
-  TARGET_JSON_FILE="${OUTPUT_DIR}/snapshot/lol-beta/PersistedSettings.json"
+  export TARGET_JSON_FILE="${1:-"$(dirname $0)/snapshot/lol-beta/PersistedSettings.json"}"
+  export OUTPUT_JSON_FILE="${2:-"$(dirname $0)/snapshot/lol-beta/PersistedSettings.json"}"
 
   jq -r '["Name", "Value"], (
     .files[]
@@ -37,7 +45,7 @@ outputSummary () {
     | .settings[]
     | [.name, .value]
   ) | @csv' "${TARGET_JSON_FILE}" \
-  > "${TARGET_JSON_FILE}.csv"
+  > "${OUTPUT_JSON_FILE}.csv"
 
   jq -r '["Name", "Value"], (
     .files[]
@@ -48,9 +56,20 @@ outputSummary () {
     | ["\(.name)", "`\(.value)`"]
   ) | @csv' "${TARGET_JSON_FILE}" \
   | pipx run csv2md \
-  > "${TARGET_JSON_FILE}.md"
+  > "${OUTPUT_JSON_FILE}.md"
 
-  wc -l "${TARGET_JSON_FILE}".*
+  wc -l "${OUTPUT_JSON_FILE}".*
+}
+
+outputWasdConfig () {
+  export TARGET_JSON_FILE="${1:-"$(dirname $0)/snapshot/lol-beta/PersistedSettings.json"}"
+
+  jq -r '.files[]
+    | select(.name == "Input.ini")
+    | .sections[]
+    | select(.name == "WASD")
+    ' "${TARGET_JSON_FILE}" \
+  | sed 's/\r(?!\n)/\r\n/g'
 }
 
 takeSnapshots () {
@@ -76,5 +95,6 @@ if [[ $# = 0 ]]; then
 elif [[ "$(type -t "$1")" = "function" ]]; then
   $1 "$(shift && echo "$@")"
 else
-  fatal "No such command: $*"
+  errorMessage "No such command: $*"
+  showUsage
 fi
