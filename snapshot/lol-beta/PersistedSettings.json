@@ -121,7 +121,7 @@
                         },
                         {
                             "name": "CfgVersion",
-                            "value": "15.24.728.7302"
+                            "value": "15.24.729.3078"
                         },
                         {
                             "name": "CursorOverride",
@@ -274,7 +274,7 @@
                         },
                         {
                             "name": "MapScrollSpeed",
-                            "value": "0.1400"
+                            "value": "0.5000"
                         },
                         {
                             "name": "MiddleClickDragScrollEnabled",
@@ -406,7 +406,7 @@
                         },
                         {
                             "name": "SmartCastOnKeyRelease",
-                            "value": "1"
+                            "value": "0"
                         },
                         {
                             "name": "SmartCastWithIndicator_CastWhenNewSpellSelected",
@@ -439,11 +439,11 @@
                         },
                         {
                             "name": "NativeOffsetX",
-                            "value": "0.0005"
+                            "value": "0.0069"
                         },
                         {
                             "name": "NativeOffsetY",
-                            "value": "0.0262"
+                            "value": "0.0178"
                         }
                     ]
                 },

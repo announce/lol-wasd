@@ -34,8 +34,8 @@ syncLinux () {
 }
 
 outputSummary () {
-  export TARGET_JSON_FILE="${1:-"$(dirname $0)/snapshot/lol-beta/PersistedSettings.json"}"
-  export OUTPUT_JSON_FILE="${2:-"$(dirname $0)/snapshot/lol-beta/PersistedSettings.json"}"
+  export TARGET_JSON_FILE="${1:-"$(dirname $0)/snapshot/lol-stable/PersistedSettings.json"}"
+  export OUTPUT_JSON_FILE="${2:-"$(dirname $0)/snapshot/lol-stable/PersistedSettings.json"}"
 
   jq -r '["Name", "Value"], (
     .files[]
@@ -62,7 +62,7 @@ outputSummary () {
 }
 
 outputWasdConfig () {
-  export TARGET_JSON_FILE="${1:-"$(dirname $0)/snapshot/lol-beta/PersistedSettings.json"}"
+  export TARGET_JSON_FILE="${1:-"$(dirname $0)/snapshot/lol-stable/PersistedSettings.json"}"
 
   jq -r '.files[]
     | select(.name == "Input.ini")

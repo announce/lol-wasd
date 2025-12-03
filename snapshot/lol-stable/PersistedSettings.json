@@ -121,7 +121,7 @@
                         },
                         {
                             "name": "CfgVersion",
-                            "value": "15.9.678.1456"
+                            "value": "15.24.730.505"
                         },
                         {
                             "name": "CursorOverride",
@@ -217,6 +217,10 @@
                             "value": "1"
                         },
                         {
+                            "name": "DynamicCameraLockMode",
+                            "value": "0"
+                        },
+                        {
                             "name": "EmotePopupUIDisplayMode",
                             "value": "0"
                         },
@@ -246,7 +250,7 @@
                         },
                         {
                             "name": "FlipMiniMap",
-                            "value": "0"
+                            "value": "1"
                         },
                         {
                             "name": "GlobalScale",
@@ -258,7 +262,7 @@
                         },
                         {
                             "name": "HidePlayerNames",
-                            "value": "0"
+                            "value": "1"
                         },
                         {
                             "name": "HideReciprocityFist",
@@ -282,7 +286,7 @@
                         },
                         {
                             "name": "MinimapEnableAllTimers",
-                            "value": "0"
+                            "value": "1"
                         },
                         {
                             "name": "MinimapMoveSelf",
@@ -291,6 +295,10 @@
                         {
                             "name": "MinimapScale",
                             "value": "2.4600"
+                        },
+                        {
+                            "name": "MinimapScaleSpectator",
+                            "value": "1.0000"
                         },
                         {
                             "name": "MirroredScoreboard",
@@ -302,7 +310,7 @@
                         },
                         {
                             "name": "NumericCooldownFormat",
-                            "value": "1"
+                            "value": "2"
                         },
                         {
                             "name": "ObjectiveVoteScale",
@@ -346,6 +354,10 @@
                         },
                         {
                             "name": "ShowHealthBarShake",
+                            "value": "1"
+                        },
+                        {
+                            "name": "ShowLastHitAssist",
                             "value": "1"
                         },
                         {
@@ -1404,6 +1416,391 @@
                         {
                             "name": "MoveLeft",
                             "value": "[<Unbound>]"
+                        }
+                    ]
+                },
+                {
+                    "name": "WASD",
+                    "settings": [
+                        {
+                            "name": "AutoAttack",
+                            "value": "[Button 1]"
+                        },
+                        {
+                            "name": "CameraLockToggle",
+                            "value": "[<Unbound>]"
+                        },
+                        {
+                            "name": "CameraSnap",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "CastAction",
+                            "value": "[Button 1]"
+                        },
+                        {
+                            "name": "CastActionCancel",
+                            "value": "[Button 3]"
+                        },
+                        {
+                            "name": "CastAvatarSpell1",
+                            "value": "[d]"
+                        },
+                        {
+                            "name": "CastAvatarSpell2",
+                            "value": "[f]"
+                        },
+                        {
+                            "name": "CastSpell1",
+                            "value": "[q]"
+                        },
+                        {
+                            "name": "CastSpell2",
+                            "value": "[w]"
+                        },
+                        {
+                            "name": "CastSpell3",
+                            "value": "[e]"
+                        },
+                        {
+                            "name": "CastSpell4",
+                            "value": "[r]"
+                        },
+                        {
+                            "name": "ChampMasteryDisplay",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "ChampionOnly",
+                            "value": "[Ctrl][Button 3]"
+                        },
+                        {
+                            "name": "ChampionSpecificInteraction1",
+                            "value": "[Ctrl][z]"
+                        },
+                        {
+                            "name": "ChampionSpecificInteraction2",
+                            "value": "[Ctrl][x]"
+                        },
+                        {
+                            "name": "ChampionSpecificInteraction3",
+                            "value": "[Ctrl][c]"
+                        },
+                        {
+                            "name": "ChampionSpecificInteraction4",
+                            "value": "[Shift][z]"
+                        },
+                        {
+                            "name": "ChampionSpecificInteraction5",
+                            "value": "[Shift][x]"
+                        },
+                        {
+                            "name": "ChampionSpecificInteraction6",
+                            "value": "[Shift][c]"
+                        },
+                        {
+                            "name": "ChatHistory",
+                            "value": "[z]"
+                        },
+                        {
+                            "name": "EmoteDance",
+                            "value": "[Alt][1]"
+                        },
+                        {
+                            "name": "EmoteJoke",
+                            "value": "[Alt][2]"
+                        },
+                        {
+                            "name": "EmoteLaugh",
+                            "value": "[Alt][3]"
+                        },
+                        {
+                            "name": "EmoteTaunt",
+                            "value": "[Alt][4]"
+                        },
+                        {
+                            "name": "EmoteToggle",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "FreeDynamicCameraToggle",
+                            "value": "[Button 2]"
+                        },
+                        {
+                            "name": "HoldShowScoreBoard",
+                            "value": "[Button 5]"
+                        },
+                        {
+                            "name": "InteractWithObject",
+                            "value": "[Button 1]"
+                        },
+                        {
+                            "name": "LevelSpell1",
+                            "value": "[Ctrl][q]"
+                        },
+                        {
+                            "name": "LevelSpell2",
+                            "value": "[Ctrl][w]"
+                        },
+                        {
+                            "name": "LevelSpell3",
+                            "value": "[Ctrl][e]"
+                        },
+                        {
+                            "name": "LevelSpell4",
+                            "value": "[Ctrl][r]"
+                        },
+                        {
+                            "name": "MoveDown",
+                            "value": "[Down Arrow]"
+                        },
+                        {
+                            "name": "MoveLeft",
+                            "value": "[Left Arrow]"
+                        },
+                        {
+                            "name": "MoveRight",
+                            "value": "[Right Arrow]"
+                        },
+                        {
+                            "name": "MoveUp",
+                            "value": "[Up Arrow]"
+                        },
+                        {
+                            "name": "OpenShop",
+                            "value": "[Ctrl][Button 5]"
+                        },
+                        {
+                            "name": "PetMoveClick",
+                            "value": "[Alt][Button 3]"
+                        },
+                        {
+                            "name": "PlayerPing",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "PlayerPingAreaIsWarded",
+                            "value": "[h]"
+                        },
+                        {
+                            "name": "PlayerPingComeHere",
+                            "value": "[Shift][Button 1]"
+                        },
+                        {
+                            "name": "PlayerPingCursor",
+                            "value": "[a]"
+                        },
+                        {
+                            "name": "PlayerPingCursorDanger",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "PlayerPingDanger",
+                            "value": "[Ctrl][Button 2]"
+                        },
+                        {
+                            "name": "PlayerPingMIA",
+                            "value": "[Shift][Button 2]"
+                        },
+                        {
+                            "name": "PlayerPingOMW",
+                            "value": "[Ctrl][Button 1]"
+                        },
+                        {
+                            "name": "PlayerPingPush",
+                            "value": "[Shift][Ctrl][Button 1]"
+                        },
+                        {
+                            "name": "PlayerPingVisionNeeded",
+                            "value": "[Shift][Ctrl][Button 2]"
+                        },
+                        {
+                            "name": "QuickOpenEmoteWheel",
+                            "value": "[Ctrl][a]"
+                        },
+                        {
+                            "name": "ReciprocityMyBadTrigger",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "ReciprocityTrigger",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "ScrollDown",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "ScrollLeft",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "ScrollRight",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "ScrollUp",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "SelectAlly1",
+                            "value": "[Ctrl][1]"
+                        },
+                        {
+                            "name": "SelectAlly2",
+                            "value": "[Ctrl][2]"
+                        },
+                        {
+                            "name": "SelectAlly3",
+                            "value": "[Ctrl][3]"
+                        },
+                        {
+                            "name": "SelectAlly4",
+                            "value": "[Ctrl][4]"
+                        },
+                        {
+                            "name": "SelectAlly5",
+                            "value": "[Ctrl][5]"
+                        },
+                        {
+                            "name": "SelectObject",
+                            "value": "[Button 1]"
+                        },
+                        {
+                            "name": "SelectSelf",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "SelfCastAvatarSpell1",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "SelfCastAvatarSpell2",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "SelfCastItem1",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "SelfCastItem2",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "SelfCastItem3",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "SelfCastItem4",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "SelfCastItem5",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "SelfCastItem6",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "SelfCastSpell1",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "SelfCastSpell2",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "SelfCastSpell3",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "SelfCastSpell4",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "SelfCastVisionItem",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "ShowCharacterMenu",
+                            "value": "[Space]"
+                        },
+                        {
+                            "name": "ShowScoreBoard",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "SmartCastWithIndicatorSpell1",
+                            "value": "[Shift][q]"
+                        },
+                        {
+                            "name": "SmartCastWithIndicatorSpell2",
+                            "value": "[Shift][w]"
+                        },
+                        {
+                            "name": "SmartCastWithIndicatorSpell3",
+                            "value": "[Shift][e]"
+                        },
+                        {
+                            "name": "SmartCastWithIndicatorSpell4",
+                            "value": "[Shift][r]"
+                        },
+                        {
+                            "name": "SmartPlusSelfCastSpell1",
+                            "value": "[Alt][q]"
+                        },
+                        {
+                            "name": "SmartPlusSelfCastSpell2",
+                            "value": "[Alt][w]"
+                        },
+                        {
+                            "name": "SmartPlusSelfCastSpell3",
+                            "value": "[Alt][e]"
+                        },
+                        {
+                            "name": "SmartPlusSelfCastSpell4",
+                            "value": "[Alt][r]"
+                        },
+                        {
+                            "name": "SysMenu",
+                            "value": "[Esc]"
+                        },
+                        {
+                            "name": "ToggleFPSAndLatency",
+                            "value": "[Alt][Button 5]"
+                        },
+                        {
+                            "name": "TogglePlayerStats",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "UseItem1",
+                            "value": "[Ctrl][Button 4]"
+                        },
+                        {
+                            "name": "UseItem2",
+                            "value": "[2]"
+                        },
+                        {
+                            "name": "UseItem3",
+                            "value": "[3]"
+                        },
+                        {
+                            "name": "UseItem4",
+                            "value": "[4]"
+                        },
+                        {
+                            "name": "UseItem5",
+                            "value": "[5]"
+                        },
+                        {
+                            "name": "UseItem6",
+                            "value": "[ ]"
+                        },
+                        {
+                            "name": "UseVisionItem",
+                            "value": "[Button 4]"
                         }
                     ]
                 }
