@@ -121,7 +121,7 @@
                         },
                         {
                             "name": "CfgVersion",
-                            "value": "15.24.730.505"
+                            "value": "15.24.733.5841"
                         },
                         {
                             "name": "CursorOverride",
@@ -439,11 +439,11 @@
                         },
                         {
                             "name": "NativeOffsetX",
-                            "value": "0.0719"
+                            "value": "0.0731"
                         },
                         {
                             "name": "NativeOffsetY",
-                            "value": "0.0120"
+                            "value": "0.0022"
                         }
                     ]
                 },
@@ -1344,6 +1344,14 @@
                     "name": "Quickbinds",
                     "settings": [
                         {
+                            "name": "UseItem1smart",
+                            "value": "0"
+                        },
+                        {
+                            "name": "UseVisionItemsmart",
+                            "value": "0"
+                        },
+                        {
                             "name": "evtCastAvatarSpell1smart",
                             "value": "1"
                         },
@@ -1584,7 +1592,7 @@
                         },
                         {
                             "name": "PlayerPingComeHere",
-                            "value": "[Shift][Button 1]"
+                            "value": "[Ctrl][a]"
                         },
                         {
                             "name": "PlayerPingCursor",
@@ -1608,15 +1616,15 @@
                         },
                         {
                             "name": "PlayerPingPush",
-                            "value": "[Shift][Ctrl][Button 1]"
+                            "value": "[Shift][Button 1]"
                         },
                         {
                             "name": "PlayerPingVisionNeeded",
-                            "value": "[Shift][Ctrl][Button 2]"
+                            "value": "[Ctrl][h]"
                         },
                         {
                             "name": "QuickOpenEmoteWheel",
-                            "value": "[Ctrl][a]"
+                            "value": "[1]"
                         },
                         {
                             "name": "ReciprocityMyBadTrigger",
