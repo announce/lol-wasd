@@ -48,7 +48,7 @@
 | PlayerPingOMW                | `[Ctrl][Button 1]`  |
 | PlayerPingPush               | `[Shift][Button 1]` |
 | PlayerPingVisionNeeded       | `[Ctrl][h]`         |
-| QuickOpenEmoteWheel          | `[1]`               |
+| QuickOpenEmoteWheel          | `[Shift][a]`        |
 | ReciprocityMyBadTrigger      | `[ ]`               |
 | ReciprocityTrigger           | `[ ]`               |
 | ScrollDown                   | `[ ]`               |
@@ -75,7 +75,7 @@
 | SelfCastSpell3               | `[ ]`               |
 | SelfCastSpell4               | `[ ]`               |
 | SelfCastVisionItem           | `[ ]`               |
-| ShowCharacterMenu            | `[Space]`           |
+| ShowCharacterMenu            | `[x]`               |
 | ShowScoreBoard               | `[ ]`               |
 | SmartCastWithIndicatorSpell1 | `[Shift][q]`        |
 | SmartCastWithIndicatorSpell2 | `[Shift][w]`        |
@@ -88,10 +88,10 @@
 | SysMenu                      | `[Esc]`             |
 | ToggleFPSAndLatency          | `[Alt][Button 5]`   |
 | TogglePlayerStats            | `[ ]`               |
-| UseItem1                     | `[Ctrl][Button 4]`  |
+| UseItem1                     | `[1]`               |
 | UseItem2                     | `[2]`               |
 | UseItem3                     | `[3]`               |
 | UseItem4                     | `[4]`               |
 | UseItem5                     | `[5]`               |
-| UseItem6                     | `[ ]`               |
+| UseItem6                     | `[Ctrl][Button 4]`  |
 | UseVisionItem                | `[Button 4]`        |

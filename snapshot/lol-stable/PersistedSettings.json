@@ -121,7 +121,7 @@
                         },
                         {
                             "name": "CfgVersion",
-                            "value": "15.24.733.5841"
+                            "value": "15.24.734.7485"
                         },
                         {
                             "name": "CursorOverride",
@@ -439,11 +439,11 @@
                         },
                         {
                             "name": "NativeOffsetX",
-                            "value": "0.0731"
+                            "value": "0.0775"
                         },
                         {
                             "name": "NativeOffsetY",
-                            "value": "0.0022"
+                            "value": "0.0289"
                         }
                     ]
                 },
@@ -1344,7 +1344,23 @@
                     "name": "Quickbinds",
                     "settings": [
                         {
+                            "name": "CastSpell3smart",
+                            "value": "1"
+                        },
+                        {
+                            "name": "CastSpell4smart",
+                            "value": "1"
+                        },
+                        {
                             "name": "UseItem1smart",
+                            "value": "1"
+                        },
+                        {
+                            "name": "UseItem4smart",
+                            "value": "1"
+                        },
+                        {
+                            "name": "UseItem6smart",
                             "value": "0"
                         },
                         {
@@ -1624,7 +1640,7 @@
                         },
                         {
                             "name": "QuickOpenEmoteWheel",
-                            "value": "[1]"
+                            "value": "[Shift][a]"
                         },
                         {
                             "name": "ReciprocityMyBadTrigger",
@@ -1732,7 +1748,7 @@
                         },
                         {
                             "name": "ShowCharacterMenu",
-                            "value": "[Space]"
+                            "value": "[x]"
                         },
                         {
                             "name": "ShowScoreBoard",
@@ -1784,7 +1800,7 @@
                         },
                         {
                             "name": "UseItem1",
-                            "value": "[Ctrl][Button 4]"
+                            "value": "[1]"
                         },
                         {
                             "name": "UseItem2",
@@ -1804,7 +1820,7 @@
                         },
                         {
                             "name": "UseItem6",
-                            "value": "[ ]"
+                            "value": "[Ctrl][Button 4]"
                         },
                         {
                             "name": "UseVisionItem",
