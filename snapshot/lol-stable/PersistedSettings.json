@@ -121,7 +121,7 @@
                         },
                         {
                             "name": "CfgVersion",
-                            "value": "15.24.734.7485"
+                            "value": "16.1.737.4870"
                         },
                         {
                             "name": "CursorOverride",
@@ -305,6 +305,10 @@
                             "value": "0"
                         },
                         {
+                            "name": "Movement Mode",
+                            "value": "1"
+                        },
+                        {
                             "name": "NameTagDisplay",
                             "value": "1"
                         },
@@ -439,11 +443,11 @@
                         },
                         {
                             "name": "NativeOffsetX",
-                            "value": "0.0775"
+                            "value": "0.0856"
                         },
                         {
                             "name": "NativeOffsetY",
-                            "value": "0.0289"
+                            "value": "0.0489"
                         }
                     ]
                 },
@@ -591,7 +595,7 @@
                         },
                         {
                             "name": "evntPlayerPingCursorDanger",
-                            "value": "[v]"
+                            "value": "[<Unbound>]"
                         },
                         {
                             "name": "evntPlayerPingDanger",
